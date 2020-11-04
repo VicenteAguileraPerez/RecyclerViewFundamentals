@@ -11,16 +11,21 @@ They are reused, with new data bound on them
 A **_RecyclerView_** is created by 6 main components:
 
 **1. Adapter**
-   - Providing data, it is similar to **_ListView_**
+   - Providing data, it is similar to **_ListView_**.
+   
 **2. ItemAnimator**
    - Its job  is to play the animations when the items are modified, removed, moved or added.
+   
 **3. ItemDecoration**
    - It can add drawings or chanhe the layout of an item (e.g. adding dividers).
+   
 **4. LayoutManager**
    - It specifies how items are laid out (list, grid, etc.).
+   
 **5. ViewHolder**
-   - The base class for item's view
+   - The base class for item's view.
+   
 **6 ReciclerView**
-   - Itself, blindig everything together
+   - Itself, blindig everything together.
    
    
