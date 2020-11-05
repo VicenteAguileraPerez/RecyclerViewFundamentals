@@ -25,7 +25,7 @@ A **_RecyclerView_** is created by 6 main components:
 **5. ViewHolder**
    - The base class for item's view.
    
-**6 ReciclerView**
+**6 RecyclerView**
    - Itself, blindig everything together.
    
    
