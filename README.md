@@ -3,7 +3,7 @@ Introduction to RecyclerView
 
 ## RecyclerView
 
-It has been introduced from Android 5, in the androidx.recyclerview package. It allows to dysplay a collection of items in an arbitrary disposition (You could think it is a **_ListView_**, but it is much more flexible).
+It has been introduced from Android 5, in the androidx.recyclerview package. It allows to display a collection of items in an arbitrary disposition (You could think it is a **_ListView_**, but it is much more flexible).
 
 Its name comes from the way it works: When an item is hidden, instead of being destroyed and a new item being created for each newly displayed item, hidden ones are **_recycled_**.
 They are reused, with new data bound on them
