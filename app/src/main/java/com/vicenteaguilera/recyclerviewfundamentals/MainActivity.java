@@ -26,11 +26,11 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(new Adapter());
         recyclerView.setItemAnimator(new DefaultItemAnimator());
 
-        // recyclerView.setLayoutManager(new LinearLayoutManager(this));// vertical 1 column top down
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));// vertical 1 column top down
         //recyclerView.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false));// horizontal 1 column reverse no left right
         // recyclerView.setLayoutManager(new GridLayoutManager(this,2));// vertical top down 2 columns
         // recyclerView.setLayoutManager(new GridLayoutManager(this,2,GridLayoutManager.HORIZONTAL,true));// hotizontal right left 2 columns
-        recyclerView.setLayoutManager(new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL));
+
 
     }
 }
